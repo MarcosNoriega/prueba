@@ -1,0 +1,17 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>region</th>
+      <th>Habitantes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let pais of paises">
+      <td>{{pais.name}}</td>
+      <td>{{pais.region}}</td>
+      <td>{{pais.population}}</td>
+    </tr>
+  </tbody>
+</table>
